@@ -6,13 +6,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
-import android.speech.tts.TextToSpeech;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 
 public class ResultView extends View {

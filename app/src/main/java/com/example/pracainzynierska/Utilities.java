@@ -1,6 +1,7 @@
 package com.example.pracainzynierska;
 
 import android.graphics.Rect;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

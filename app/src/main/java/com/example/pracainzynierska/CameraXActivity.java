@@ -1,24 +1,24 @@
 package com.example.pracainzynierska;
 
 import android.Manifest;
-        import android.content.pm.PackageManager;
-        import android.os.Bundle;
-        import android.os.SystemClock;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.os.SystemClock;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.util.Size;
-        import android.view.TextureView;
-        import android.widget.Toast;
+import android.view.TextureView;
+import android.widget.Toast;
 
-        import androidx.annotation.Nullable;
-        import androidx.annotation.UiThread;
-        import androidx.annotation.WorkerThread;
+import androidx.annotation.Nullable;
+import androidx.annotation.UiThread;
+import androidx.annotation.WorkerThread;
 import androidx.camera.core.ImageAnalysis;
-        import androidx.camera.core.ImageAnalysisConfig;
-        import androidx.camera.core.ImageProxy;
-        import androidx.camera.core.Preview;
-        import androidx.camera.core.PreviewConfig;
-        import androidx.core.app.ActivityCompat;
+import androidx.camera.core.ImageAnalysisConfig;
+import androidx.camera.core.ImageProxy;
+import androidx.camera.core.Preview;
+import androidx.camera.core.PreviewConfig;
+import androidx.core.app.ActivityCompat;
 
 import java.util.Locale;
 

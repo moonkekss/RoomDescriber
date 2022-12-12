@@ -3,18 +3,11 @@ package com.example.pracainzynierska;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.graphics.ImageFormat;
 import android.graphics.Matrix;
-import android.graphics.Paint;
-import android.graphics.Path;
 import android.graphics.Rect;
-import android.graphics.RectF;
 import android.graphics.YuvImage;
 import android.media.Image;
-import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.TextureView;
 import android.view.ViewStub;
@@ -33,7 +26,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class ObjectDetection extends CameraXActivity<ObjectDetection.AnalysisResult> {
     private Module mModule = null;
